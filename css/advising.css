@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;;
+}
+
+body{
+    height: 1080px;
+    display: flex;
+}
+
+.nav-sec{
+    position: relative;
+    height: 100%;
+    width: 17%;
+    background-color: #800000;
+}
+
+.top-left{
+    display: flex;
+    height: 12vh;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-left img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.top-left h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.navigation{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+
+.navigation ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+/* .navigation ul li a:hover{
+    width: max-content;
+    background-color: rgba(255, 255, 255, 0.606);
+    padding: 10px 30px;
+    color: black;
+    border-radius: 15px;
+} */
+
+.navigation ul li a .fa-solid, .navigation ul li a .fa-sharp, .navigation ul li a .fa-regular{
+    width: 40px;
+}
+
+.lower-left{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    position: relative;
+    top: 90px;
+}
+
+.lower-left .image{
+    padding-right: 10px;
+    margin-top: 10px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.lower-left .name{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.lower-left .logout{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.lower-left .logout a{
+    text-decoration: none;
+    color: #000;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dash{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 23px 5%;
+    height: 8%;
+    background-color: #FDDA0D;
+}
+
+.dash .top-nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 40px;
+}
+
+.dash .top-nav ul li a:hover{
+    color: #800000;
+    font-size: large;
+}
+
+.dash .top-nav ul li a{
+    text-decoration: none;
+    color: #333;
+    transition: .5s;
+}
+
+
+.dash .top-nav ul li a .fa-solid:hover{
+    font-size: larger;
+    color: #800000;
+}
+
+.select-status{
+    position: relative;
+    top: 40px;
+    left: 400px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 23px 5%;
+    height: 13%;
+}
+
+.select-status ul li{ 
+    list-style-type: none;
+    display: inline;
+    padding: 10px 80px;
+}
+
+.select-status ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-color: #800000;
+    border-radius: 5px;
+}
+
+.course-selection{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+}
+
+.course-selection li{
+    list-style-type: none;
+    display: flex;
+}
+
+.course-selection ul li a{
+    text-decoration: none;
+}
+
+.select-status .status {
+    position: absolute;
+    background-color: #800000;
+    top: 0;
+    left: 100px;
+    margin-top: 40px;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.select-status .select{
+    margin-top: 160px;
+    position: relative;
+    left: -310px;
+}
+
+.select-status .select .regular, .select-status .select .irregular {
+    background-color: #800000;
+    width: 400px;
+    margin-top: 100px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    overflow: hidden;
+}
+
+#status_container {
+    display: none;
+    
+}

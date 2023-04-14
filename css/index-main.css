@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#image {
+    max-width: 400px;
+    position: absolute;
+    left: 300px;
+}
+
+.login-container {
+    height: 100vh;
+    width: 500px;
+    background-color: maroon;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .login {
+    height: auto;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login-container .login h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.login-container .login input[type="text"], .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid maroon;
+}
+
+.login-container .login p.fpass {
+    margin-left: 6px;
+    font-size: smaller;
+}
+
+.login-container .login button {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: maroon;
+    color: white;
+    border: none;
+    margin: 10px 0 5px;
+}
+
+.login-container .login button:hover{
+    background-color: yellow;
+    color: black;
+    transition: .3s;
+}
+
+.login-container .login p.nam {
+    text-align: center;
+    font-size: smaller;
+}
+
+.login-container .login p.nam a, .login-container .login p.fpass a{
+    text-decoration: none;
+}

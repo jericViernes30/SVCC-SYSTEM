@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;;
+}
+
+body{
+    height: 1080px;
+    display: flex;
+}
+
+.nav-sec{
+    position: relative;
+    height: 100%;
+    width: 14%;
+    background-color: #800000;
+}
+
+.top-left{
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.top-left img{
+    width: 60px;
+    height: 60px;
+    margin-right: 40px;
+}
+
+.top-left h2{
+    font-size: 20px;
+    color: white;
+}
+
+.navigation{
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.navigation ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+
+.navigation ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.navigation ul li a .fa-solid, .navigation ul li a .fa-sharp, .navigation ul li a .fa-regular{
+    width: 40px;
+}
+
+.lower-left{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    top: 280px;
+    left: 9px;
+}
+
+.lower-left .image{
+    padding-right: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.lower-left .name{
+    text-align: center;
+    font-size: smaller;
+    color: white;
+}

@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;;
+}
+
+body{
+    height: 1080px;
+    display: flex;
+}
+
+.nav-sec{
+    position: relative;
+    height: 100%;
+    width: 17%;
+    background-color: #800000;
+}
+
+.top-left{
+    display: flex;
+    height: 12vh;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-left img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.top-left h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.navigation{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+
+.navigation ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.navigation ul li a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.navigation ul li a .fa-solid, .navigation ul li a .fa-sharp, .navigation ul li a .fa-regular{
+    width: 40px;
+}
+
+.lower-left{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    position: relative;
+    top: 90px;
+}
+
+.lower-left .image{
+    padding-right: 10px;
+    margin-top: 10px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.lower-left .name{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.lower-left .logout{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.lower-left .logout a{
+    text-decoration: none;
+    color: #000;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dash{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 23px 5%;
+    height: 8%;
+    background-color: #FDDA0D;
+}
+
+.dash .top-nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 40px;
+}
+
+.dash .top-nav ul li a:hover{
+    color: #800000;
+    font-size: large;
+}
+
+.dash .top-nav ul li a{
+    text-decoration: none;
+    color: #333;
+    transition: .5s;
+}
+
+
+.dash .top-nav ul li a .fa-solid:hover{
+    font-size: larger;
+    color: #800000;
+}
+
+
+.container .content .greet{
+    padding: 5px 10px;
+}
+
+
+.container .displays{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.num_of_profs{
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+.num_of_profs h3{
+    text-align: center;
+    border-bottom: 1px solid #800000;
+    padding-bottom: 5px;
+}
+
+.num_of_profs .disp{
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: 50px;
+}
+
+.num_of_students{
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+.num_of_students h3{
+    text-align: center;
+    border-bottom: 1px solid #800000;
+    padding-bottom: 5px;
+}
+
+.num_of_students .disp{
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: 50px;
+}
